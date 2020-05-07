@@ -17,7 +17,7 @@ function AboutMe() {
         <div class="row">
           <div class="col-md-2"></div>
           <div class="col-md-2">
-            <img src="../../public/images/portfolio-picture.png" class="mr-3 ml-3" alt="Michael Baska"/>
+            <img src="./images/portfolio-picture.png" class="mr-3 ml-3" alt="Michael Baska"/>
           </div>
           <div class="col-md-5">
             <div class="media-body">
