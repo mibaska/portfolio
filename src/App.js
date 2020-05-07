@@ -14,7 +14,6 @@ function App() {
   return (
     <BrowserRouter>
       <Nav />
-      <AboutMe />
       <Route exact path={["/", "/aboutme"]} component={AboutMe} />
       <Route path={"/contact"} component={Contact} />
       <Route path={"/portfolio"} component={Portfolio} />
