@@ -4,16 +4,19 @@ import Contact from "./pages/contact";
 import Portfolio from "./pages/portfolio";
 import {
   BrowserRouter,
-  Route
+  Route,
+  Switch
 } from "react-router-dom";
 import './App.css';
 
 function App() {
   return (
     <BrowserRouter>
-      <Route exact path={["/", "/aboutme"]} component={AboutMe} />
-      <Route path={"/contact"} component={Contact} />
-      <Route path={"/portfolio"} component={Portfolio} />
+      <Switch>
+        <Route exact path={["/", "/aboutme"]} component={AboutMe} />
+        <Route path={"/contact"} component={Contact} />
+        <Route path={"/portfolio"} component={Portfolio} />
+      </Switch>
     </BrowserRouter>
   );
 }
