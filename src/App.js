@@ -4,7 +4,6 @@ import Contact from "./pages/contact";
 import Portfolio from "./pages/portfolio";
 import {
   BrowserRouter,
-  Switch,
   Route
 } from "react-router-dom";
 import './App.css';
@@ -12,17 +11,9 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-        <Switch>
-          <Route exact path={["/", "/books"]}>
-            <AboutMe />
-          </Route>
-          <Route path={"/contact"}>
-            <Contact />
-          </Route>
-          <Route path={"/portfolio"}>
-            <Portfolio />
-          </Route>
-        </Switch>
+      <Route exact path={["/", "/aboutme"]} component={AboutMe} />
+      <Route path={"/contact"} component={Contact} />
+      <Route path={"/portfolio"} component={Portfolio} />
     </BrowserRouter>
   );
 }
