@@ -6,8 +6,7 @@ import Nav from "./components/Nav";
 import AntiNav from "./components/AntiNav";
 import {
   BrowserRouter,
-  Route,
-  Switch
+  Route
 } from "react-router-dom";
 import './App.css';
 
@@ -16,11 +15,9 @@ function App() {
     <BrowserRouter>
       <Nav />
       <AboutMe />
-      <Switch>
         <Route exact path={["/", "/aboutme"]} component={AboutMe} />
         <Route path={"/contact"} component={Contact} />
         <Route path={"/portfolio"} component={Portfolio} />
-      </Switch>
       <AntiNav />
     </BrowserRouter>
   );
