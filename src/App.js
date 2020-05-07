@@ -14,6 +14,7 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
+      <AboutMe />
       <Nav />
       <Switch>
         <Route exact path={["/", "/aboutme"]} component={AboutMe} />
