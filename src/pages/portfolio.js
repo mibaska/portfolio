@@ -23,7 +23,7 @@ function Portfolio() {
             <div class="card-body">
               <h5 class="card-title">Project 1</h5>
               <p class="card-text">This was my first project from my coding bootcamp. It is a pair of Jeopordy-style quizzes. One quiz is about Star Wars, the other is about Rick and Morty. My collaborators in this project were Spencer Wood, Val Young, and Vandana Sivadasan.</p>
-              <a href="https://mibaska.github.io/Project01/" class="btn btn-primary" target="_blank">Enter</a>
+              <a href="https://mibaska.github.io/Project01/" class="btn btn-primary">Enter</a>
             </div>
           </div>
         </div>
@@ -33,7 +33,7 @@ function Portfolio() {
             <div class="card-body">
               <h5 class="card-title">Project 2</h5>
               <p class="card-text">This was my second project from my coding bootcamp. It is a calendar app. My collaborators in this project were Alek Seawright and Jared Higgins.</p>
-              <a href="https://accessibility-calendar.herokuapp.com/" class="btn btn-primary" target="_blank">Enter</a>
+              <a href="https://accessibility-calendar.herokuapp.com/" class="btn btn-primary">Enter</a>
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@ function Portfolio() {
             <div class="card-body">
               <h5 class="card-title">Particeps</h5>
               <p class="card-text">When I have something to put here, I will. Until then, I will put in a song by Godsmack.</p>
-              <a href="https://www.youtube.com/watch?v=opU1urLhw50" class="btn btn-primary" target="_blank">Enter</a>
+              <a href="https://www.youtube.com/watch?v=opU1urLhw50" class="btn btn-primary">Enter</a>
             </div>
           </div>
         </div>
