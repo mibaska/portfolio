@@ -23,7 +23,7 @@ function AboutMe() {
             <div class="media-body">
                 <p>I am a student of the KU Coding Boot Camp. I have learned html, css and javascript.</p>
                 <p>Html is relatively easy. The most important thing to remember is the tags and what they do.</p>
-                <p>Css is the harder, at least for me. You need to know exactly how to make things look good for the client.</p>
+                <p>CSS is harder, at least for me. You need to know exactly how to make things look good for the client.</p>
                 <p>Javascript is the hardest, although it is the part I most enjoy. With javascript, you can make a website do nearly anything.</p>
                 <p>Here are some of the applications I have made in this Bootcamp:</p>
                 <ul>
